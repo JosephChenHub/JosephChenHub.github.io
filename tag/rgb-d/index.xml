@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rgb-d | Academic</title>
+    <link>https://JosephChenHub.github.io/tag/rgb-d/</link>
+      <atom:link href="https://JosephChenHub.github.io/tag/rgb-d/index.xml" rel="self" type="application/rss+xml" />
+    <description>rgb-d</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://JosephChenHub.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>rgb-d</title>
+      <link>https://JosephChenHub.github.io/tag/rgb-d/</link>
+    </image>
+    
+    <item>
+      <title>DPANet: Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection</title>
+      <link>https://JosephChenHub.github.io/publication/tip20/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://JosephChenHub.github.io/publication/tip20/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: There are two main issues in RGB-D salient object detection:
+(1) how to effectively integrate the complementarity from the cross-modal RGB-D data;
+(2) how to prevent the contamination effect from the unreliable depth map.
+In fact, these two problems are linked and intertwined, but the previous methods tend to focus only on the first problem and ignore the consideration of depth map quality, which may yield the model fall into the sub-optimal state.
+In this paper, we address these two issues in a holistic model synergistically, and propose a novel network named DPANet to explicitly model the potentiality of the depth map and effectively integrate the cross-modal complementarity.
+By introducing the depth potentiality perception, the network can perceive the potentiality of depth information in a learning-based manner, and guide the fusion process of two modal data to prevent the contamination occurred.
+The gated multi-modality attention module in the fusion process exploits the attention mechanism with a gate controller to capture long-range dependencies from a cross-modal perspective. Experimental results compared with 16 state-of-the-art methods on 8 datasets demonstrate the validity of the proposed approach both quantitatively and qualitatively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;TIP_main.png&#34; alt=&#34;main&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vis.png&#34; alt=&#34;vis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;gma.png&#34; alt=&#34;gma&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

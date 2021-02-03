@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personalized attributes | Academic</title>
+    <link>https://JosephChenHub.github.io/tag/personalized-attributes/</link>
+      <atom:link href="https://JosephChenHub.github.io/tag/personalized-attributes/index.xml" rel="self" type="application/rss+xml" />
+    <description>personalized attributes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://JosephChenHub.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>personalized attributes</title>
+      <link>https://JosephChenHub.github.io/tag/personalized-attributes/</link>
+    </image>
+    
+    <item>
+      <title>Deep Partial Rank Aggregation for Personalized Attributes</title>
+      <link>https://JosephChenHub.github.io/publication/aaai21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://JosephChenHub.github.io/publication/aaai21/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+In this paper, we study the problem of how to aggregate pair-
+wise personalized attributes (PA) annotations (e.g., Shoes A
+is more comfortable than B) from different annotators on the
+crowdsourcing platforms, which is an emerging topic gaining
+increasing attention in recent years. Given the crowdsourced
+annotations, the majority of the traditional literature assumes
+that all the pairs in the collected dataset are distinguishable.
+However, this assumption is incompatible with how humans
+perceive attributes since indistinguishable pairs are ubiqui-
+tous for the annotators due to the limitation of human percep-
+tion. To attack this problem, we propose a novel deep pre-
+diction model that could simultaneously detect the indistin-
+guishable pairs and aggregate ranking results for distinguish-
+able pairs. First of all, we represent the pairwise annotations
+as a multi-graph. Based on such data structure, we propose
+an end-to-end partial ranking model which consists of a deep
+backbone architecture and a probabilistic model that captures
+the generative process of the partial rank annotations. Specif-
+ically, to recognize the indistinguishable pairs, the probabilis-
+tic model we proposed is equipped with an adaptive percep-
+tion threshold, where indistinguishable pairs could be auto-
+matically detected when the absolute value of the score dif-
+ference is below the learned threshold. In our empirical stud-
+ies, we perform a series of experiments on three real-world
+datasets: LFW-10, Shoes, and Sun. The corresponding results
+consistently show the superiority of our proposed model.&lt;/p&gt;
+&lt;h1 id=&#34;mainmainpng&#34;&gt;&lt;img src=&#34;main.png&#34; alt=&#34;main&#34;&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;main.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

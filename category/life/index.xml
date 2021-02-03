@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life | Academic</title>
+    <link>https://JosephChenHub.github.io/category/life/</link>
+      <atom:link href="https://JosephChenHub.github.io/category/life/index.xml" rel="self" type="application/rss+xml" />
+    <description>Life</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Feb 2021 17:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://JosephChenHub.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Life</title>
+      <link>https://JosephChenHub.github.io/category/life/</link>
+    </image>
+    
+    <item>
+      <title>Welcome to my homepage!</title>
+      <link>https://JosephChenHub.github.io/post/getting-started/</link>
+      <pubDate>Tue, 02 Feb 2021 17:00:00 +0000</pubDate>
+      <guid>https://JosephChenHub.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;weekend-in-the-shenzhen-bay-park&#34;&gt;Weekend in the Shenzhen Bay Park&lt;/h2&gt;
+&lt;p&gt;This photo was taken in the Shenzhen Bay Park with my girlfriend.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://JosephChenHub.github.io/media/shenzhen.jpg&#34; alt=&#34;Shenzhen Bay Park&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

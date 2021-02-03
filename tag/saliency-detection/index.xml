@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>saliency detection | Academic</title>
+    <link>https://JosephChenHub.github.io/tag/saliency-detection/</link>
+      <atom:link href="https://JosephChenHub.github.io/tag/saliency-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>saliency detection</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://JosephChenHub.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>saliency detection</title>
+      <link>https://JosephChenHub.github.io/tag/saliency-detection/</link>
+    </image>
+    
+    <item>
+      <title>DPANet: Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection</title>
+      <link>https://JosephChenHub.github.io/publication/tip20/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://JosephChenHub.github.io/publication/tip20/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: There are two main issues in RGB-D salient object detection:
+(1) how to effectively integrate the complementarity from the cross-modal RGB-D data;
+(2) how to prevent the contamination effect from the unreliable depth map.
+In fact, these two problems are linked and intertwined, but the previous methods tend to focus only on the first problem and ignore the consideration of depth map quality, which may yield the model fall into the sub-optimal state.
+In this paper, we address these two issues in a holistic model synergistically, and propose a novel network named DPANet to explicitly model the potentiality of the depth map and effectively integrate the cross-modal complementarity.
+By introducing the depth potentiality perception, the network can perceive the potentiality of depth information in a learning-based manner, and guide the fusion process of two modal data to prevent the contamination occurred.
+The gated multi-modality attention module in the fusion process exploits the attention mechanism with a gate controller to capture long-range dependencies from a cross-modal perspective. Experimental results compared with 16 state-of-the-art methods on 8 datasets demonstrate the validity of the proposed approach both quantitatively and qualitatively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;TIP_main.png&#34; alt=&#34;main&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vis.png&#34; alt=&#34;vis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;gma.png&#34; alt=&#34;gma&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Global Context-Aware Progressive Aggregation Network for Salient Object Detection</title>
+      <link>https://JosephChenHub.github.io/publication/aaai20/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://JosephChenHub.github.io/publication/aaai20/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+Deep convolutional neural networks have achieved competitive performance in salient object detection, in which how to learn effective and comprehensive features plays a critical role. Most of the previous works mainly adopted multiple-level feature integration yet ignored the gap between different features. Besides, there also exists a dilution process of high-level features as they passed on the top-down pathway. To remedy these issues, we propose a novel network named GCPANet to
+effectively integrate low-level appearance features, high-level semantic features, and global context features through some progressive context-aware Feature Interweaved Aggregation (FIA) modules and generate the saliency map in a supervised way. Moreover, a Head Attention (HA) module is used to reduce information redundancy and enhance the top layers features by leveraging the spatial and channel-wise attention, and the Self Refinement (SR) module is utilized to further refine
+and heighten the input features. Furthermore, we design the Global Context Flow (GCF) module to generate the global context information at different stages, which aims to learn the relationship among different salient regions and alleviate the dilution effect of high-level features. Experimental results on six benchmark datasets demonstrate that the proposed approach outperforms the state-of-the-art methods both quantitatively and qualitatively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;main.png&#34; alt=&#34;main&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vis.png&#34; alt=&#34;vis&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
