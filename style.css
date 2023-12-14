@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+a {
+    text-decoration: none; /* Removes underline from all links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for all links */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%; 
+    margin-right: 5%;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+header img {
+    width: 20%; 
+    height: auto;
+    margin: auto; 
+}
+
+#bio {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0; 
+}
+
+#bio-photo {
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+    max-width: 350px; 
+}
+
+#bio-text {
+    flex-grow: 1;
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+.publication {
+    display: block; /* Each publication is a block to stack vertically */
+    margin-bottom: 20px;
+}
+
+.publication-content {
+    display: flex; /* Use flexbox for side-by-side image and text */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    margin-top: 20px;
+}
+
+.publication-images {
+    flex: 1; /* Allow image container to fill the space but not exceed max-width */
+    max-width: 400px; /* Set a max-width for images */
+    margin-right: 20px;
+}
+
+.publication-images img {
+    width: 100%; /* Image takes the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.publication-info {
+    flex: 3; /* Allow text container to take up remaining space */
+}
+
+.publication-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #191970;
+}
+
+.publication-info p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-top: 5px;
+    color: #5F9EA0;
+}
+
+@media (max-width: 768px) {
+    .publication-content {
+        flex-direction: column; /* Stack image and text on top of each other on small screens */
+    }
+
+    .publication-images {
+        max-width: 100%; /* Allow images to take full width on small screens */
+        margin: 0 0 20px 0; /* Adjust margin for stacked layout */
+    }
+
+    .publication-info {
+        flex: 1 100%; /* Reset flex-grow value and allow text to take full width */
+    }
+}
+
+
+/* Style for the icon link container */
+.icon-links {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between each icon and text pair */
+}
+
+/* Style for individual icon links */
+.icon-link {
+    display: flex; /* Align icon and text in a row */
+    align-items: center; /* Center items vertically */
+    gap: 5px; /* Space between icon and text */
+    color:#4169E1;
+}
+
+.icon-link img {
+    width: 30px; /* Width of the icon */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add additional styles if needed */
+footer {
+    margin-top: 50px; 
+    margin: 20px;
+   /* border: 1px solid #ddd; */
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.flex-container {
+    position: relative; /* Set the parent to relative positioning */
+    width: 75%; /* Adjust the width as needed */
+}
+
+.hk-image {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-caption {
+    position: absolute; /* Position the caption absolutely relative to its parent */
+    bottom: 0; /* Align it to the bottom */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make the caption the same width as the image */
+    color: white; /* Adjust text color as needed */
+    text-align: center; /* Center the text */
+    margin-top: 20px; 
+}
