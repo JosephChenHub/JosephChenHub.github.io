@@ -154,8 +154,11 @@ footer {
 }
 
 .flex-container {
-    position: relative; /* Set the parent to relative positioning */
     width: 75%; /* Adjust the width as needed */
+    text-align:center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;     
 }
 
 .hk-image {
