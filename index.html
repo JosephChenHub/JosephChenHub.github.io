@@ -8,45 +8,140 @@
 </head>
 <body>
     <header>
-        <!-- Replace 'path_to_your_image.png' with the actual path to your image -->
         <img src="resources/header.png" alt="Joseph Chen's Homepage" />
     </header>
     <section id="bio">
-      <img src="resources/dsc9346.jpg" alt="Portrait of Joseph Chen" id="bio-photo">
-      <div id="bio-text">
-          <h2>Biography</h2>
-          <p>Hi there ! 👏 I am a third-year Ph.D. student at <a href="https://www.polyu.edu.hk", style="color:4169E1;">
-            The Hong Kong Polytechnic University (PolyU) </a> under the supervision of <b><a href="https://scholar.google.com/citations?user=w2HXPUUAAAAJ", style="color:4169E1;">
-            Prof. Changwen Chen </a> (Chair Professor of Visual Computing, IEEE Fellow)</b> and 
-            <b><a href="https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=en", style="color:4169E1;">Prof. Zhen Lei</a> (IEEE Fellow)</b> 
-            . Before that, I received a B.S. degree in Automation Engineering from the University of Electronic Science and Technology of China (UESTC) 
-            and an M.S. degree in Computer Science from the <a href="https://www.ucas.ac.cn", style="color:4169E1;">University of Chinese Academy of Sciences (UCAS) </a> under the supervision of 
-            <b><a href="https://scholar.google.com/citations?user=J1vMnRgAAAAJ&hl=en", style="color:4169E1;">Prof. Qingming Huang </a> (Professor at UCAS, IEEE Fellow)</b>
-             and <b><a href="https://qianqianxu010.github.io", style="color:4169E1;"> Prof. Qianqian Xu</a> (Professor at ICT, CAS)</b>. 
-          </p>
-          <p> My Chinese name is 陳祖耀. My research interests cover topics in computer vision and deep learning, such as Salient Object Detection (SOD), Scene Graph Generation (SGG), and Large Language Models (LLMs).</p>
-          <p> My personal hobbies include Chinese calligraphy (中國書法), photography, and hiking. </p>
-          <div class="icon-links">
-            
-            <a href="https://github.com/JosephChenHub" class="icon-link" target="_blank" title="Visit my GitHub">
-              <img src="resources/github.png" alt="GitHub Logo">
-              GitHub 
-          </a>
-            <a href="https://github.com/orgs/gpt4vision/" class="icon-link" target="_blank" title="Visit my GitHub">
-                gpt4vision 
-            </a>
-            <a href="mailto:zuyao.chen@connect.polyu.hk" class="icon-link" title="Send me an email">
-                <img src="resources/email.jpeg" alt="Email Logo">
-                Email
-            </a>
-            <a href="https://scholar.google.com/citations?user=kuQ_mrAAAAAJ&hl=en" class="icon-link" target="_blank" title="Visit my Google Scholar">
-                <img src="resources/scholar.jpeg" alt="Google Scholar Logo">
-                Google Scholar
-            </a>
-            <!-- Add more links as needed -->
-        </div>  
-      </div>
-  </section>
+        <img src="resources/dsc9346.jpg" alt="Portrait of Joseph Chen" id="bio-photo">
+        <div id="bio-text">
+            <h2>Biography</h2>
+            <p>Hi there! 👏 I am a third-year Ph.D. student at 
+              <a href="https://www.polyu.edu.hk" style="color:4169E1;">The Hong Kong Polytechnic University (PolyU)</a> 
+              under the supervision of 
+              <b><a href="https://scholar.google.com/citations?user=w2HXPUUAAAAJ" style="color:4169E1;">Prof. Changwen Chen</a> (Chair Professor of Visual Computing, IEEE Fellow)</b> 
+              and 
+              <b><a href="https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=en" style="color:4169E1;">Prof. Zhen Lei</a> (IEEE Fellow)</b>.
+              Before that, I received a B.S. degree in Automation Engineering from the University of Electronic Science and Technology of China (UESTC) 
+              and an M.S. degree in Computer Science from the 
+              <a href="https://www.ucas.ac.cn" style="color:4169E1;">University of Chinese Academy of Sciences (UCAS)</a> 
+              under the supervision of 
+              <b><a href="https://scholar.google.com/citations?user=J1vMnRgAAAAJ&hl=en" style="color:4169E1;">Prof. Qingming Huang</a> (Professor at UCAS, IEEE Fellow)</b>
+              and 
+              <b><a href="https://qianqianxu010.github.io" style="color:4169E1;">Prof. Qianqian Xu</a> (Professor at ICT, CAS)</b>. 
+            </p>
+            <p>My Chinese name is 陳祖耀. My research interests cover topics in computer vision and deep learning, such as Salient Object Detection (SOD), Scene Graph Generation (SGG), and Large Language Models (LLMs).</p>
+            <div class="icon-links">
+                <a href="https://github.com/JosephChenHub" class="icon-link" target="_blank" title="Visit my GitHub">
+                    <img src="resources/github.png" alt="GitHub Logo">
+                    GitHub 
+                </a>
+                <a href="https://github.com/orgs/gpt4vision/" class="icon-link" target="_blank" title="Visit my GitHub">
+                    gpt4vision
+                </a>
+                <a href="mailto:zuyao.chen@connect.polyu.hk" class="icon-link" title="Send me an email">
+                    <img src="resources/email.jpeg" alt="Email Logo">
+                    Email
+                </a>
+                <a href="https://scholar.google.com/citations?user=kuQ_mrAAAAAJ&hl=en" class="icon-link" target="_blank" title="Visit my Google Scholar">
+                    <img src="resources/scholar.jpeg" alt="Google Scholar Logo">
+                    Google Scholar
+                </a>
+            </div>  
+        </div>
+    </section>
+    <section id="news">
+        <h2>🔥 News</h2>
+        <ul>
+            <li><b style="color:black;">2024-07</b>: One paper has been accepted by ECCV 2024.</li>
+        </ul>
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+             <!-- 1st work -->
+            <div class="publication-content" style="margin-top: 20px;">
+                <div class="publication-images">
+                    <img src="resources/GPT4SGG-main.png" alt="Publication related to GPT4SGG"> 
+                </div>
+                <div class="publication-info"> 
+                    <h3>GPT4SGG: Synthesizing Scene Graphs from Holistic and Region-specific Narratives</h3>
+                    <p><b style="color:black;">Zuyao Chen</b>, Jinlin Wu, Zhen Lei, Zhaoxiang Zhang, and Changwen Chen <br>
+                      <em>arXiv (preprint)</em>, 2023. <br> 
+                    </p>
+                    <p>
+                      <a href="https://arxiv.org/pdf/2312.04314.pdf" style="color:#191970;">Paper</a> / 
+                      <a href="https://github.com/gpt4vision/gpt4sgg-source">Code </a> / 
+                      <a href="https://gpt4vision.github.io/gpt4sgg/">Project Page (to be updated)</a>  
+                    </p>
+                </div>
+            </div>
+             <!-- 2nd work -->
+            <div class="publication-content">
+                <div class="publication-images">
+                    <img src="resources/OvSGTR-main.png" alt="Publication related to OvSGTR"> 
+                </div>              
+                <div class="publication-info"> 
+                  <h3>Expanding Scene Graph Boundaries: Fully Open-vocabulary Scene Graph Generation via Visual-Concept Alignment and Retention</h3>
+                  <p><b style="color:black;">Zuyao Chen</b>, Jinlin Wu, Zhen Lei, Zhaoxiang Zhang, and Changwen Chen <br>
+                    <em>ECCV</em>, 2024.<br> 
+                  </p>
+                  <p>
+                    <a href="https://arxiv.org/pdf/2311.10988.pdf" style="color:#191970;">Paper</a> / 
+                    <a href="https://github.com/gpt4vision/OvSGTR/">Code</a> / 
+                    <a href="">Project Page (to be updated) </a>  
+                  </p>
+                </div>
+            </div>
+            <!-- 3rd work -->
+            <div class="publication-content">
+              <div class="publication-images">
+                <!-- Add multiple images if needed -->
+                <img src="resources/TIP_main.png" alt="Publication related to DPANet">
+              </div>
+              <div class="publication-info">
+                <h3>DPANet: Depth potentiality-aware gated attention network for RGB-D salient object detection</h3>
+                <p><b style="color:black;">Zuyao Chen*</b>, Runmin Cong*, Qianqian Xu, and Qingming Huang<br>
+                <em>IEEE Transactions on Image Processing</em>, vol. 30, pp. 7012-7024, 2021.<br>
+                (* equal contribution) <em style="color:red">ESI Highly Cited Paper</em></p>
+                <!-- Links or other publication info can go here -->
+                <p> 
+                  <a href="https://arxiv.org/pdf/2003.08608.pdf" style="color:#191970;">Paper</a> / 
+                  <a href="https://github.com/JosephChenHub/DPANet">Code</a> / 
+                  <a href="https://rmcong.github.io/proj_DPANet.html">Project Page</a> /
+                  <a href="https://www.bilibili.com/video/BV1Ry4y1m7WL/"> Talk (Chinese version)</a>
+                </p>
+              </div>
+            </div>
+            <div class="publication-content">
+                <div class="publication-images">
+                    <img src="resources/gcpa-vis.png" alt="Publication related to GCPANet"> 
+                </div>
+                <div class="publication-info">
+                    <h3>Global context-aware progressive aggregation network for salient object detection</h3>
+                    <p><b style="color:black;">Zuyao Chen</b>, Qianqian Xu, Runmin Cong,  and Qingming Huang<br>
+                      <em>Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI)</em>, pp. 10599-10606, 2020.<br>
+                      (<em style="color:red">oral presentation</em>) 
+                    </p>
+                    <p><a href="https://ojs.aaai.org/index.php/AAAI/article/download/6633/6487" style="color:#191970;">Paper</a> / 
+                      <a href="https://github.com/JosephChenHub/GCPANet">Code</a> 
+                    </p>
+                </div>
+            </div>
+        </div> 
+        <div class="publication-content">
+            <div class="publication-images">
+                <img src="resources/deep_partial_rank.png" alt="Publication related to deep partial rank">            
+            </div>
+            <div class="publication-info">
+                <h3>Deep Partial Rank Aggregation for Personalized Attributes</h3>
+                <p>Qianqian Xu, Zhiyong Yang, <b style="color:black;">Zuyao Chen</b>, Yangbangyan Jiang, Xiaochun Cao, Yuan Yao, Qingming Huang <br>
+                  <em>Thirty-Five AAAI Conference on Artificial Intelligence (AAAI)</em>, pp. 678-688, 2021.<br> 
+                </p>
+                <p>
+                  <a href="https://ojs.aaai.org/index.php/AAAI/article/download/16148/15955" style="color:#191970;">Paper</a> 
+                </p>
+            </div>
+        </div>
+    </section>
     <section id="education">
         <h2>Education</h2>
         <ul>
@@ -55,102 +150,19 @@
             <li>BSc. degree in Automation Engineering, 2013 -- 2017 University of Electronic Science and Technology of China (UESTC), Cheng Du, China</li>
         </ul>
     </section>
-    <section id="publications">
-        <h2>Publications</h2>
-        <div class="publication">
-          <div class="publication-content", style="margin-top: 20px;">
-            <div class="publication-images">
-              <img src="resources/GPT4SGG-main.png" alt="Publication related to GPT4SGG"> 
-            </div>
-            <div class="publication-info"> 
-                <h3>GPT4SGG: Synthesizing Scene Graphs from Holistic and Region-specific Narratives</h3>
-                <p><b style="color:black;">Zuyao Chen</b>, Jinlin Wu, Zhen Lei, Zhaoxiang Zhang, and Changwen Chen <br>
-                  <em>arXiv (preprint)</em>, 2023. <br> 
-                </p>
-                <p>
-                  <a href="https://arxiv.org/pdf/2312.04314.pdf", style="color:#191970;">Paper</a> / 
-                  <a href="https://github.com/gpt4vision/gpt4sgg-source">Code </a> / 
-                  <a href="https://gpt4vision.github.io/gpt4sgg/">Project Page (to be updated)</a>  
-                </p>
-            </div>
-          </div>
-          <div class="publication-content">
-            <div class="publication-images">
-              <img src="resources/OvSGTR-main.png" alt="Publication related to OvSGTR"> 
-            </div>              
-            <div class="publication-info"> 
-              <h3>Expanding Scene Graph Boundaries: Fully Open-vocabulary Scene Graph Generation via Visual-Concept Alignment and Retention</h3>
-              <p><b style="color:black;">Zuyao Chen</b>, Jinlin Wu, Zhen Lei, Zhaoxiang Zhang, and Changwen Chen <br>
-                <em>ECCV 2024. <br> 
-              </p>
-              <p>
-                <a href="https://arxiv.org/pdf/2311.10988.pdf", style="color:#191970;">Paper</a> / 
-                <a href="https://github.com/gpt4vision/OvSGTR/">Code</a> / 
-                <a href="">Project Page (to be updated) </a>  
-              </p>
-            </div>
-          </div>
-          <!-- 3rd work -->
-          <div class="publication-content">
-            <div class="publication-images">
-              <!-- Add multiple images if needed -->
-              <img src="resources/TIP_main.png" alt="Publication related to DPANet">
-            </div>
-            <div class="publication-info">
-              <h3>DPANet: Depth potentiality-aware gated attention network for RGB-D salient object detection</h3>
-              <p><b style="color:black;">Zuyao Chen*</b>, Runmin Cong*, Qianqian Xu, and Qingming Huang<br>
-              <em>IEEE Transactions on Image Processing</em>, vol. 30, pp. 7012-7024, 2021.<br>
-              (* equal contribution) <em style="color:red">ESI Highly Cited Paper</em></p>
-              <!-- Links or other publication info can go here -->
-              <p> <a href="https://arxiv.org/pdf/2003.08608.pdf", style="color:#191970;">Paper</a> / 
-                  <a href="https://github.com/JosephChenHub/DPANet">Code</a> / 
-                  <a href="https://rmcong.github.io/proj_DPANet.html">Project Page</a> /
-                  <a href="https://www.bilibili.com/video/BV1Ry4y1m7WL/"> Talk (Chinese version)</a>
-              </p>
-            </div>
-          </div>
-          <div class="publication-content">
-            <div class="publication-images">
-              <img src="resources/gcpa-vis.png" alt="Publication related to GCPANet"> 
-            </div>
-            <div class="publication-info">
-              <h3>Global context-aware progressive aggregation network for salient object detection</h3>
-              <p><b style="color:black;">Zuyao Chen</b>, Qianqian Xu, Runmin Cong,  and Qingming Huang<br>
-                <em>Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI)</em>, pp. 10599-10606, 2020.<br>
-              (<em style="color:red">oral presentation</em>) 
-              </p>
-              <p><a href="https://ojs.aaai.org/index.php/AAAI/article/download/6633/6487", style="color:#191970;">Paper</a> / 
-                <a href="https://github.com/JosephChenHub/GCPANet">Code</a> 
-              </p>
-            </div>
-          </div>
-        </div> 
-        <div class="publication-content">
-          <div class="publication-images">
-            <img src="resources/deep_partial_rank.png" alt="Publication related to deep partial rank">            
-          </div>
-          <div class="publication-info">
-            <h3>Deep Partial Rank Aggregation for Personalized Attributes</h3>
-            <p>Qianqian Xu, Zhiyong Yang, <b style="color:black;">Zuyao Chen</b>, Yangbangyan Jiang, Xiaochun Cao, Yuan Yao, Qingming Huang <br>
-              <em>Thirty-Five AAAI Conference on Artificial Intelligence (AAAI)</em>, pp. 678-688, 2021.<br> 
-            </p>
-            <p>
-              <a href="https://ojs.aaai.org/index.php/AAAI/article/download/16148/15955", style="color:#191970;">Paper</a> 
-            </p>
-          </div>
-        </div>
-    </section>
-    <section id="misc", style="margin-top:50px;">
+    <section id="misc" style="margin-top:50px;">
         <h2>Miscellaneous</h2>
         <div class="flex-container">
-          <img src="resources/dsc7217.jpg" class="hk-image" alt="HK">  
-          <p class="image-caption">Hong Kong@Joseph</p>
-      </div>
+            <img src="resources/dsc7217.jpg" class="hk-image" alt="HK">  
+            <p class="image-caption">Hong Kong@Joseph</p>
+        </div>
+        <p>My personal hobbies include Chinese calligraphy (中國書法), photography, swimming, and hiking.</p>
     </section>
     <div class="flex-container" style="width:35%;height:auto;margin-top: 20px;margin-left:auto;margin-right:auto;">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=EtSxtHoN54TmP9j87if6IgO-PE4TE8n7kLAXAWbdnpg&cl=ffffff&w=a"></script>
-     </div>
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=EtSxtHoN54TmP9j87if6IgO-PE4TE8n7kLAXAWbdnpg&cl=ffffff&w=a"></script>
+    </div>
     <footer>
+        <p>Hong Kong @ Joseph</p>
         <p>Acknowledgement: ChatGPT for website building</p>
     </footer>
 </body>
